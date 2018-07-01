@@ -1,0 +1,71 @@
+*** Creating Trace Output File '..\Out\project.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"..\out\startup_stm32f10x_md.o"'
+### List of Objects: adding '"..\out\core_cm3.o"'
+### List of Objects: adding '"..\out\system_stm32f10x.o"'
+### List of Objects: adding '"..\out\misc.o"'
+### List of Objects: adding '"..\out\stm32f10x_adc.o"'
+### List of Objects: adding '"..\out\stm32f10x_bkp.o"'
+### List of Objects: adding '"..\out\stm32f10x_can.o"'
+### List of Objects: adding '"..\out\stm32f10x_cec.o"'
+### List of Objects: adding '"..\out\stm32f10x_crc.o"'
+### List of Objects: adding '"..\out\stm32f10x_dac.o"'
+### List of Objects: adding '"..\out\stm32f10x_dbgmcu.o"'
+### List of Objects: adding '"..\out\stm32f10x_dma.o"'
+### List of Objects: adding '"..\out\stm32f10x_exti.o"'
+### List of Objects: adding '"..\out\stm32f10x_flash.o"'
+### List of Objects: adding '"..\out\stm32f10x_fsmc.o"'
+### List of Objects: adding '"..\out\stm32f10x_gpio.o"'
+### List of Objects: adding '"..\out\stm32f10x_i2c.o"'
+### List of Objects: adding '"..\out\stm32f10x_iwdg.o"'
+### List of Objects: adding '"..\out\stm32f10x_pwr.o"'
+### List of Objects: adding '"..\out\stm32f10x_rcc.o"'
+### List of Objects: adding '"..\out\stm32f10x_rtc.o"'
+### List of Objects: adding '"..\out\stm32f10x_sdio.o"'
+### List of Objects: adding '"..\out\stm32f10x_spi.o"'
+### List of Objects: adding '"..\out\stm32f10x_tim.o"'
+### List of Objects: adding '"..\out\stm32f10x_usart.o"'
+### List of Objects: adding '"..\out\stm32f10x_wwdg.o"'
+### List of Objects: adding '"..\out\bsp.o"'
+### List of Objects: adding '"..\out\bsp_int.o"'
+### List of Objects: adding '"..\out\usart.o"'
+### List of Objects: adding '"..\out\systick.o"'
+### List of Objects: adding '"..\out\i2c.o"'
+### List of Objects: adding '"..\out\ultrasonic.o"'
+### List of Objects: adding '"..\out\tim4.o"'
+### List of Objects: adding '"..\out\cpu_c.o"'
+### List of Objects: adding '"..\out\cpu_a.o"'
+### List of Objects: adding '"..\out\lib_mem.o"'
+### List of Objects: adding '"..\out\lib_str.o"'
+### List of Objects: adding '"..\out\lib_mem_a.o"'
+### List of Objects: adding '"..\out\os_cpu_a.o"'
+### List of Objects: adding '"..\out\os_core.o"'
+### List of Objects: adding '"..\out\os_flag.o"'
+### List of Objects: adding '"..\out\os_mbox.o"'
+### List of Objects: adding '"..\out\os_mem.o"'
+### List of Objects: adding '"..\out\os_mutex.o"'
+### List of Objects: adding '"..\out\os_q.o"'
+### List of Objects: adding '"..\out\os_sem.o"'
+### List of Objects: adding '"..\out\os_task.o"'
+### List of Objects: adding '"..\out\os_time.o"'
+### List of Objects: adding '"..\out\os_tmr.o"'
+### List of Objects: adding '"..\out\os_cpu_c.o"'
+### List of Objects: adding '"..\out\os_dbg.o"'
+### List of Objects: adding '"..\out\app.o"'
+### List of Objects: adding '"..\out\stm32f10x_it.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "..\out\startup_stm32f10x_md.o" "..\out\core_cm3.o" "..\out\system_stm32f10x.o" "..\out\misc.o" "..\out\stm32f10x_adc.o" "..\out\stm32f10x_bkp.o" "..\out\stm32f10x_can.o" "..\out\stm32f10x_cec.o" "..\out\stm32f10x_crc.o" "..\out\stm32f10x_dac.o" "..\out\stm32f10x_dbgmcu.o" "..\out\stm32f10x_dma.o" "..\out\stm32f10x_exti.o" "..\out\stm32f10x_flash.o" "..\out\stm32f10x_fsmc.o" "..\out\stm32f10x_gpio.o" "..\out\stm32f10x_i2c.o" "..\out\stm32f10x_iwdg.o" "..\out\stm32f10x_pwr.o" "..\out\stm32f10x_rcc.o" "..\out\stm32f10x_rtc.o" "..\out\stm32f10x_sdio.o" "..\out\stm32f10x_spi.o" "..\out\stm32f10x_tim.o" "..\out\stm32f10x_usart.o" "..\out\stm32f10x_wwdg.o" "..\out\bsp.o" "..\out\bsp_int.o" "..\out\usart.o" "..\out\systick.o" "..\out\i2c.o" "..\out\ultrasonic.o" "..\out\tim4.o" "..\out\cpu_c.o" "..\out\cpu_a.o" "..\out\lib_mem.o" "..\out\lib_str.o" "..\out\lib_mem_a.o" "..\out\os_cpu_a.o" "..\out\os_core.o" "..\out\os_flag.o" "..\out\os_mbox.o" "..\out\os_mem.o" "..\out\os_mutex.o" "..\out\os_q.o" "..\out\os_sem.o" "..\out\os_task.o" "..\out\os_time.o" "..\out\os_tmr.o" "..\out\os_cpu_c.o" "..\out\os_dbg.o" "..\out\app.o" "..\out\stm32f10x_it.o" --library_type=microlib --strict --scatter "..\Out\project.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list "..\List\project.map" -o "..\Out\project.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '..\Out\project.axf'
+### ADS-LD Command File: '..\Out\project.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '..\Out\project.lnp', Handle=0x00000358
+### Writing '.lnp' file
+### ADS-LD Command file '..\Out\project.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

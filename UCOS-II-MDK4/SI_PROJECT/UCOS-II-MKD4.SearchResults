@@ -1,0 +1,44 @@
+---- int8_t Matches (5 in 2 files) ----
+Stm32f10x.h (e:\mcucode\ucos-ii-mdk4\cmsis\cm3\devicesupport\st\stm32f10x):typedef int8_t  s8;
+Stm32f10x.h (e:\mcucode\ucos-ii-mdk4\cmsis\cm3\devicesupport\st\stm32f10x):typedef const int8_t sc8;   /*!< Read Only */
+Stm32f10x.h (e:\mcucode\ucos-ii-mdk4\cmsis\cm3\devicesupport\st\stm32f10x):typedef __IO int8_t   vs8;
+Stm32f10x.h (e:\mcucode\ucos-ii-mdk4\cmsis\cm3\devicesupport\st\stm32f10x):typedef __I int8_t vsc8;   /*!< Read Only */
+sysTick.c (e:\mcucode\ucos-ii-mdk4\bsp\systick):static int8_t SysTick_Mode_Config(void)
+---- Create App_TaskStart Matches (0 in 0 files) ----
+---- Create App_TaskStart?? Matches (0 in 0 files) ----
+---- OS_CPU_CM3_NVIC_ST_CTRL_COUNT Matches (1 in 1 files) ----
+Os_cpu_c.c (e:\mcucode\ucos-ii-mdk4\ucos-ii\ports):#define  OS_CPU_CM3_NVIC_ST_CTRL_COUNT                    0x00010000     /* Count flag.                */
+---- distance_data Matches (5 in 1 files) ----
+Ultrasonic.c (e:\mcucode\ucos-ii-mdk4\bsp\ultrasonic):float distance_data[DISTANCE_DATABUF_SIZE]={0.0};
+Ultrasonic.c (e:\mcucode\ucos-ii-mdk4\bsp\ultrasonic):				distance_data[index++] = TempDistance;
+Ultrasonic.c (e:\mcucode\ucos-ii-mdk4\bsp\ultrasonic):				distance_data[index++] = 3500;
+Ultrasonic.c (e:\mcucode\ucos-ii-mdk4\bsp\ultrasonic):				distance_data[index++] = 0;
+Ultrasonic.c (e:\mcucode\ucos-ii-mdk4\bsp\ultrasonic):		distance += distance_data[i];
+---- return_flag Matches (17 in 2 files) ----
+Stm32f10x_it.c (e:\mcucode\ucos-ii-mdk4\app):extern uint8_t return_flag;
+Stm32f10x_it.c (e:\mcucode\ucos-ii-mdk4\app):	   printf("return_flag = %d\r\n", return_flag);
+Stm32f10x_it.c (e:\mcucode\ucos-ii-mdk4\app):       if((return_flag == 1)&&(GPIO_ReadInputDataBit(GPIOB,ULTRASONIC_ECHO_Pin) == Bit_SET))
+Stm32f10x_it.c (e:\mcucode\ucos-ii-mdk4\app):		   return_flag = 2;
+Stm32f10x_it.c (e:\mcucode\ucos-ii-mdk4\app):	   else if((return_flag == 2)&&(GPIO_ReadInputDataBit(GPIOB,ULTRASONIC_ECHO_Pin) == Bit_RESET))
+Stm32f10x_it.c (e:\mcucode\ucos-ii-mdk4\app):			return_flag=3;
+Stm32f10x_it.c (e:\mcucode\ucos-ii-mdk4\app):			return_flag=3;
+Stm32f10x_it.c (e:\mcucode\ucos-ii-mdk4\app):			printf("in isr return_flag\r\n");
+Ultrasonic.c (e:\mcucode\ucos-ii-mdk4\bsp\ultrasonic):uint8_t return_flag;
+Ultrasonic.c (e:\mcucode\ucos-ii-mdk4\bsp\ultrasonic):	printf("in get distance return_flag before is %d\r\n", return_flag);
+Ultrasonic.c (e:\mcucode\ucos-ii-mdk4\bsp\ultrasonic):		printf("in get distance return_flag is %d\r\n", return_flag);
+Ultrasonic.c (e:\mcucode\ucos-ii-mdk4\bsp\ultrasonic):		if((return_flag == 0)||(return_flag == 3))
+Ultrasonic.c (e:\mcucode\ucos-ii-mdk4\bsp\ultrasonic):			return_flag = 1;
+---- return_flag Matches (17 in 2 files) ----
+Stm32f10x_it.c (e:\mcucode\ucos-ii-mdk4\app):extern uint8_t return_flag;
+Stm32f10x_it.c (e:\mcucode\ucos-ii-mdk4\app):	   printf("return_flag = %d\r\n", return_flag);
+Stm32f10x_it.c (e:\mcucode\ucos-ii-mdk4\app):       if((return_flag == 1)&&(GPIO_ReadInputDataBit(GPIOB,ULTRASONIC_ECHO_Pin) == Bit_SET))
+Stm32f10x_it.c (e:\mcucode\ucos-ii-mdk4\app):		   return_flag = 2;
+Stm32f10x_it.c (e:\mcucode\ucos-ii-mdk4\app):	   else if((return_flag == 2)&&(GPIO_ReadInputDataBit(GPIOB,ULTRASONIC_ECHO_Pin) == Bit_RESET))
+Stm32f10x_it.c (e:\mcucode\ucos-ii-mdk4\app):			return_flag=3;
+Stm32f10x_it.c (e:\mcucode\ucos-ii-mdk4\app):			return_flag=3;
+Stm32f10x_it.c (e:\mcucode\ucos-ii-mdk4\app):			printf("in isr return_flag\r\n");
+Ultrasonic.c (e:\mcucode\ucos-ii-mdk4\bsp\ultrasonic):uint8_t return_flag;
+Ultrasonic.c (e:\mcucode\ucos-ii-mdk4\bsp\ultrasonic):	printf("in get distance return_flag before is %d\r\n", return_flag);
+Ultrasonic.c (e:\mcucode\ucos-ii-mdk4\bsp\ultrasonic):		printf("in get distance return_flag is %d\r\n", return_flag);
+Ultrasonic.c (e:\mcucode\ucos-ii-mdk4\bsp\ultrasonic):		if((return_flag == 0)||(return_flag == 3))
+Ultrasonic.c (e:\mcucode\ucos-ii-mdk4\bsp\ultrasonic):			return_flag = 1;
